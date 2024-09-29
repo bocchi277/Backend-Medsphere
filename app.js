@@ -9,7 +9,7 @@ app.use(express.json()); // Parse JSON request bodies
 app.use(cors());
 
 // MongoDB connection string
-const MONGODB_URI = 'mongodb+srv://bocchi_277:%40why_are_you_gay@cluster0.xtv5w.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0';
+const MONGODB_URI = 'mongodb+srv://bocchi_277:%40why_are_you_gay@cluster0.xtv5w.mongodb.net/medicines?retryWrites=true&w=majority&appName=Cluster0';
 
 // Connect to MongoDB
 mongoose.connect(MONGODB_URI, {
